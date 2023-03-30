@@ -31,7 +31,6 @@ double my_factorial(double number){
     for (double i = 1; i<=number; ++i){
         result = result * i;
     }
-    
     return result;
 }
 
@@ -79,7 +78,6 @@ double my_max(double *array_numbers, int array_size){
             result = array_numbers[i];
         }
     }
-    
     return result;
 }
 
